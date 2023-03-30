@@ -53,8 +53,8 @@
 
 **Bonus**
 
-1. How to use one of the model to forecast `t + N`, [how-to-forecast.ipynb](deep-learning/how-to-forecast.ipynb)
-2. Consensus, how to use sentiment data to forecast `t + N`, [sentiment-consensus.ipynb](deep-learning/sentiment-consensus.ipynb)
+1. How to use one of the model to forecast `t + N`, [how-to-forecast.py](deep-learning/how-to-forecast.py)
+2. Consensus, how to use sentiment data to forecast `t + N`, [sentiment-consensus.py](deep-learning/sentiment-consensus.py)
 
 #### [Stacking models](stacking)
  1. Deep Feed-forward Auto-Encoder Neural Network to reduce dimension + Deep Recurrent Neural Network + ARIMA + Extreme Boosting Gradient Regressor
@@ -88,28 +88,28 @@
 
 ### [Data Explorations](misc)
 
-1. stock market study on TESLA stock, [tesla-study.ipynb](misc/tesla-study.ipynb)
-2. Outliers study using K-means, SVM, and Gaussian on TESLA stock, [outliers.ipynb](misc/outliers.ipynb)
-3. Overbought-Oversold study on TESLA stock, [overbought-oversold.ipynb](misc/overbought-oversold.ipynb)
-4. Which stock you need to buy? [which-stock.ipynb](misc/which-stock.ipynb)
+1. stock market study on TESLA stock, [tesla-study.py](misc/tesla-study.py)
+2. Outliers study using K-means, SVM, and Gaussian on TESLA stock, [outliers.py](misc/outliers.py)
+3. Overbought-Oversold study on TESLA stock, [overbought-oversold.py](misc/overbought-oversold.py)
+4. Which stock you need to buy? [which-stock.py](misc/which-stock.py)
 
 ### [Simulations](simulation)
 
-1. Simple Monte Carlo, [monte-carlo-drift.ipynb](simulation/monte-carlo-drift.ipynb)
-2. Dynamic volatility Monte Carlo, [monte-carlo-dynamic-volatility.ipynb](simulation/monte-carlo-dynamic-volatility.ipynb)
-3. Drift Monte Carlo, [monte-carlo-drift.ipynb](simulation/monte-carlo-drift.ipynb)
-4. Multivariate Drift Monte Carlo BTC/USDT with Bitcurate sentiment, [multivariate-drift-monte-carlo.ipynb](simulation/multivariate-drift-monte-carlo.ipynb)
-5. Portfolio optimization, [portfolio-optimization.ipynb](simulation/portfolio-optimization.ipynb), inspired from https://pythonforfinance.net/2017/01/21/investment-portfolio-optimisation-with-python/
+1. Simple Monte Carlo, [monte-carlo-drift.py](simulation/monte-carlo-drift.py)
+2. Dynamic volatility Monte Carlo, [monte-carlo-dynamic-volatility.py](simulation/monte-carlo-dynamic-volatility.py)
+3. Drift Monte Carlo, [monte-carlo-drift.py](simulation/monte-carlo-drift.py)
+4. Multivariate Drift Monte Carlo BTC/USDT with Bitcurate sentiment, [multivariate-drift-monte-carlo.py](simulation/multivariate-drift-monte-carlo.py)
+5. Portfolio optimization, [portfolio-optimization.py](simulation/portfolio-optimization.py), inspired from https://pythonforfinance.net/2017/01/21/investment-portfolio-optimisation-with-python/
 
 ### [Tensorflow-js](stock-forecasting-js)
 
-I code [LSTM Recurrent Neural Network](deep-learning/1.lstm.ipynb) and [Simple signal rolling agent](agent/simple-agent.ipynb) inside Tensorflow JS, you can try it here, [huseinhouse.com/stock-forecasting-js](https://huseinhouse.com/stock-forecasting-js/), you can download any historical CSV and upload dynamically.
+I code [LSTM Recurrent Neural Network](deep-learning/lstm.py) and [Simple signal rolling agent](agent/simple-agent.py) inside Tensorflow JS, you can try it here, [stock-forecasting-js](stock-forecasting-js/), you can download any historical CSV and upload dynamically.
 
 ### [Misc](misc)
 
-1. fashion trending prediction with cross-validation, [fashion-forecasting.ipynb](misc/fashion-forecasting.ipynb)
-2. Bitcoin analysis with LSTM prediction, [bitcoin-analysis-lstm.ipynb](misc/bitcoin-analysis-lstm.ipynb)
-3. Kijang Emas Bank Negara, [kijang-emas-bank-negara.ipynb](misc/kijang-emas-bank-negara.ipynb)
+1. fashion trending prediction with cross-validation, [fashion-forecasting.py](misc/fashion-forecasting.py)
+2. Bitcoin analysis with LSTM prediction, [bitcoin-analysis-lstm.py](misc/bitcoin-analysis-lstm.py)
+3. Kijang Emas Bank Negara, [kijang-emas-bank-negara.py](misc/kijang-emas-bank-negara.py)
 
 ## Results
 
@@ -117,95 +117,95 @@ I code [LSTM Recurrent Neural Network](deep-learning/1.lstm.ipynb) and [Simple s
 
 **This agent only able to buy or sell 1 unit per transaction.**
 
-1. Turtle-trading agent, [turtle-agent.ipynb](agent/1.turtle-agent.ipynb)
+1. Turtle-trading agent, [turtle-agent.py](agent/turtle-agent.py)
 
 <img src="output-agent/turtle-agent.png" width="70%" align="">
 
-2. Moving-average agent, [moving-average-agent.ipynb](agent/2.moving-average-agent.ipynb)
+2. Moving-average agent, [moving-average-agent.py](agent/moving-average-agent.py)
 
 <img src="output-agent/moving-average-agent.png" width="70%" align="">
 
-3. Signal rolling agent, [signal-rolling-agent.ipynb](agent/3.signal-rolling-agent.ipynb)
+3. Signal rolling agent, [signal-rolling-agent.py](agent/signal-rolling-agent.py)
 
 <img src="output-agent/signal-rolling-agent.png" width="70%" align="">
 
-4. Policy-gradient agent, [policy-gradient-agent.ipynb](agent/4.policy-gradient-agent.ipynb)
+4. Policy-gradient agent, [policy-gradient-agent.py](agent/policy-gradient-agent.py)
 
 <img src="output-agent/policy-gradient-agent.png" width="70%" align="">
 
-5. Q-learning agent, [q-learning-agent.ipynb](agent/5.q-learning-agent.ipynb)
+5. Q-learning agent, [q-learning-agent.py](agent/q-learning-agent.py)
 
 <img src="output-agent/q-learning-agent.png" width="70%" align="">
 
-6. Evolution-strategy agent, [evolution-strategy-agent.ipynb](agent/6.evolution-strategy-agent.ipynb)
+6. Evolution-strategy agent, [evolution-strategy-agent.py](agent/evolution-strategy-agent.py)
 
 <img src="output-agent/evolution-strategy-agent.png" width="70%" align="">
 
-7. Double Q-learning agent, [double-q-learning-agent.ipynb](agent/7.double-q-learning-agent.ipynb)
+7. Double Q-learning agent, [double-q-learning-agent.py](agent/double-q-learning-agent.py)
 
 <img src="output-agent/double-q-learning.png" width="70%" align="">
 
-8. Recurrent Q-learning agent, [recurrent-q-learning-agent.ipynb](agent/8.recurrent-q-learning-agent.ipynb)
+8. Recurrent Q-learning agent, [recurrent-q-learning-agent.py](agent/recurrent-q-learning-agent.py)
 
 <img src="output-agent/recurrent-q-learning.png" width="70%" align="">
 
-9. Double Recurrent Q-learning agent, [double-recurrent-q-learning-agent.ipynb](agent/9.double-recurrent-q-learning-agent.ipynb)
+9. Double Recurrent Q-learning agent, [double-recurrent-q-learning-agent.py](agent/double-recurrent-q-learning-agent.py)
 
 <img src="output-agent/double-recurrent-q-learning.png" width="70%" align="">
 
-10. Duel Q-learning agent, [duel-q-learning-agent.ipynb](agent/10.duel-q-learning-agent.ipynb)
+10. Duel Q-learning agent, [duel-q-learning-agent.py](agent/duel-q-learning-agent.py)
 
 <img src="output-agent/double-q-learning.png" width="70%" align="">
 
-11. Double Duel Q-learning agent, [double-duel-q-learning-agent.ipynb](agent/11.double-duel-q-learning-agent.ipynb)
+11. Double Duel Q-learning agent, [double-duel-q-learning-agent.py](agent/double-duel-q-learning-agent.py)
 
 <img src="output-agent/double-duel-q-learning.png" width="70%" align="">
 
-12. Duel Recurrent Q-learning agent, [duel-recurrent-q-learning-agent.ipynb](agent/12.duel-recurrent-q-learning-agent.ipynb)
+12. Duel Recurrent Q-learning agent, [duel-recurrent-q-learning-agent.py](agent/duel-recurrent-q-learning-agent.py)
 
 <img src="output-agent/duel-recurrent-q-learning.png" width="70%" align="">
 
-13. Double Duel Recurrent Q-learning agent, [double-duel-recurrent-q-learning-agent.ipynb](agent/13.double-duel-recurrent-q-learning-agent.ipynb)
+13. Double Duel Recurrent Q-learning agent, [double-duel-recurrent-q-learning-agent.py](agent/double-duel-recurrent-q-learning-agent.py)
 
 <img src="output-agent/double-duel-recurrent-q-learning.png" width="70%" align="">
 
-14. Actor-critic agent, [actor-critic-agent.ipynb](agent/14.actor-critic-agent.ipynb)
+14. Actor-critic agent, [actor-critic-agent.py](agent/14.actor-critic-agent.py)
 
 <img src="output-agent/actor-critic.png" width="70%" align="">
 
-15. Actor-critic Duel agent, [actor-critic-duel-agent.ipynb](agent/14.actor-critic-duel-agent.ipynb)
+15. Actor-critic Duel agent, [actor-critic-duel-agent.py](agent/actor-critic-duel-agent.py)
 
 <img src="output-agent/actor-critic-duel.png" width="70%" align="">
 
-16. Actor-critic Recurrent agent, [actor-critic-recurrent-agent.ipynb](agent/16.actor-critic-recurrent-agent.ipynb)
+16. Actor-critic Recurrent agent, [actor-critic-recurrent-agent.py](agent/actor-critic-recurrent-agent.py)
 
 <img src="output-agent/actor-critic-recurrent.png" width="70%" align="">
 
-17. Actor-critic Duel Recurrent agent, [actor-critic-duel-recurrent-agent.ipynb](agent/17.actor-critic-duel-recurrent-agent.ipynb)
+17. Actor-critic Duel Recurrent agent, [actor-critic-duel-recurrent-agent.py](agent/actor-critic-duel-recurrent-agent.py)
 
 <img src="output-agent/actor-critic-duel-recurrent.png" width="70%" align="">
 
-18. Curiosity Q-learning agent, [curiosity-q-learning-agent.ipynb](agent/18.curiosity-q-learning-agent.ipynb)
+18. Curiosity Q-learning agent, [curiosity-q-learning-agent.py](agent/curiosity-q-learning-agent.py)
 
 <img src="output-agent/curiosity-q-learning.png" width="70%" align="">
 
-19. Recurrent Curiosity Q-learning agent, [recurrent-curiosity-q-learning.ipynb](agent/19.recurrent-curiosity-q-learning-agent.ipynb)
+19. Recurrent Curiosity Q-learning agent, [recurrent-curiosity-q-learning.py](agent/recurrent-curiosity-q-learning-agent.py)
 
 <img src="output-agent/recurrent-curiosity-q-learning.png" width="70%" align="">
 
-20. Duel Curiosity Q-learning agent, [duel-curiosity-q-learning-agent.ipynb](agent/20.duel-curiosity-q-learning-agent.ipynb)
+20. Duel Curiosity Q-learning agent, [duel-curiosity-q-learning-agent.py](agent/duel-curiosity-q-learning-agent.py)
 
 <img src="output-agent/duel-curiosity-q-learning.png" width="70%" align="">
 
-21. Neuro-evolution agent, [neuro-evolution.ipynb](agent/21.neuro-evolution-agent.ipynb)
+21. Neuro-evolution agent, [neuro-evolution.py](agent/neuro-evolution-agent.py)
 
 <img src="output-agent/neuro-evolution.png" width="70%" align="">
 
-22. Neuro-evolution with Novelty search agent, [neuro-evolution-novelty-search.ipynb](agent/22.neuro-evolution-novelty-search-agent.ipynb)
+22. Neuro-evolution with Novelty search agent, [neuro-evolution-novelty-search.py](agent/neuro-evolution-novelty-search-agent.py)
 
 <img src="output-agent/neuro-evolution-novelty-search.png" width="70%" align="">
 
-23. ABCD strategy agent, [abcd-strategy.ipynb](agent/23.abcd-strategy-agent.ipynb)
+23. ABCD strategy agent, [abcd-strategy.py](agent/abcd-strategy-agent.py)
 
 <img src="output-agent/abcd-strategy.png" width="70%" align="">
 
